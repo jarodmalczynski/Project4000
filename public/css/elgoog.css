@@ -1,0 +1,311 @@
+body {
+    font-size: 16px;
+    background: white;
+}
+
+#igoogle {
+    width: 80%;
+    max-width: 480px;
+}
+
+#mic-input {
+    width: 10%;
+    max-width: 36px;
+    margin-right: 10%;
+    z-index: 99;
+    margin-top: -15%;
+}
+
+#logo {
+    margin-top: 50%;
+    max-width: 240px;
+}
+
+#top-left {
+    margin-top: -46.5%;
+    width: 40%;
+}
+
+.gbutton:hover {
+    background: rgba(173, 173, 173, 0.2);
+    color: black;
+    border: solid dimgray 1px;
+}
+
+.gbutton {
+    background: rgba(139, 136, 139, 0.46);
+    color: rgba(18, 17, 18, 0.51);
+    width: 10%;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#gbot {
+    background-color: #d9d9d9;
+    height: 25px;
+    width: 100%;
+    margin-top: 90%;
+}
+
+#top-right {
+    margin-top: -50%;
+    width: 60%;
+}
+
+#idk-potato {
+    font-size: 10px;
+    width: 25%;
+    height: 30px;
+    padding-top: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+#img {
+    width: 9%;
+    margin-top: 6%;
+    margin-right: 2%;
+}
+
+#gmail {
+    margin-top: 5%;
+    padding-right: 2%;
+}
+
+#images {
+    margin-top: 5%;
+    padding-right: 2%;
+}
+
+#about {
+    padding-left: 5%;
+}
+
+#store {
+    padding-left: 5%;
+}
+
+#gsearch {
+    height: 40px;
+    width: 125px;
+    margin-left: 10%;
+}
+
+#lucky {
+    height: 40px;
+    width: 140px;
+    margin-right: 10%;
+}
+
+
+
+@media screen and (min-width: 410px) {
+    #gsearch {
+        margin-left: 15%;
+    }
+    #lucky {
+        margin-right: 15%;
+    }
+    #gbot {
+        margin-top: 70%;
+    }
+    #mic-input {
+        margin-top: -13%;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    #gbot {
+        margin-top: 60%;
+    }
+
+    #img {
+        margin-top: 5%;
+    }
+
+    #gsearch {
+        margin-left: 20%;
+    }
+
+    #lucky {
+        margin-right: 20%;
+    }
+    #mic-input {
+        margin-top: -11%;
+    }
+}
+@media screen and (min-width: 505px) {
+    #gsearch {
+        margin-left: 20%;
+    }
+    #lucky {
+        margin-right: 20%;
+    }
+    #gbot {
+        margin-top: 40%;
+    }
+    #mic-input {
+        margin-top: -10%;
+    }
+}
+
+@media screen and (min-width: 570px) {
+    #logo {
+        margin-top: 40%;
+    }
+    #top-left {
+        margin-top: -36.5%;
+    }
+    #top-right {
+        margin-top: -40%;
+    }
+}
+
+@media screen and (min-width: 610px) {
+    #img {
+        margin-top: 4%;
+    }
+    #idk-potato {
+        margin-top: 5%;
+        padding-top: 2%;
+    }
+    #mic-input {
+        margin-right: 15%;
+        margin-top: -8%;
+    }
+    #gsearch {
+        margin-left: 27%;
+    }
+    #lucky {
+        margin-right: 27%;
+    }
+}
+
+@media screen and (min-width: 688px) {
+    #logo {
+        margin-top: 30%;
+    }
+    #top-left {
+        margin-top: -26.5%;
+    }
+    #top-right {
+        margin-top: -30%;
+    }
+}
+
+@media screen and (min-width: 738px) {
+    #mic-input {
+        margin-right: 18%;
+        margin-top: -7%;
+    }
+}
+
+@media screen and (min-width: 785px) {
+    #mic-input {
+        margin-right: 20%;
+    }
+    #gbot {
+        margin-top: 30%;
+    }
+    #gsearch {
+        margin-left: 32%;
+    }
+    #lucky {
+        margin-right: 32%;
+    }
+}
+
+@media screen and (min-width: 855px) {
+    #img {
+        width: 6%;
+    }
+    #idk-potato {
+        margin-top: 4%;
+        font-size: 15px;
+        padding-top: 1%;
+    }
+    #mic-input {
+        margin-top: -6%;
+        margin-right: 23%;
+    }
+}
+
+@media screen and (min-width: 916px) {
+    #gbot {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    #mic-input {
+        margin-top: -5%;
+        margin-right: 25%;
+    }
+    #gsearch {
+        margin-left: 35%;
+    }
+    #lucky {
+        margin-right: 35%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #mic-input {
+        margin-right: 27%;
+    }
+    .gbutton {
+        padding-top: .5%;
+    }
+}
+
+@media screen and (min-width: 1105px) {
+    #mic-input {
+        margin-top: -4%;
+        margin-right: 29%;
+    }
+    #logo {
+        margin-top: 20%;
+    }
+    #top-left {
+        margin-top: -16.5%;
+    }
+    #top-right {
+        margin-top: -20%;
+    }
+}
+
+@media screen and (min-width: 1246px) {
+    #img {
+        width: 5%;
+    }
+    #mic-input {
+        margin-right: 31%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #mic-input {
+        margin-right: 32%;
+    }
+    #gsearch {
+        margin-left: 39%;
+    }
+    #lucky {
+        margin-right: 39%;
+    }
+    #img {
+        width: 5%;
+    }
+    #idk-potato {
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1361px) {
+    #gbot {
+        margin-top: 19%;
+    }
+}
